@@ -1,6 +1,12 @@
 ﻿using try_github;
+var fest = int.Parse(Console.ReadLine());
+var second = int.Parse(Console.ReadLine());
+
 Add super = new Add();
 Sub sub = new Sub();
-super.add(1,2);
-sub.CalculationSub(1,2);
+
+var tasi =super.add(fest,second);
+var hiki =sub.CalculationSub(fest,second);
+Console.WriteLine(tasi);
+Console.WriteLine(hiki);
 
